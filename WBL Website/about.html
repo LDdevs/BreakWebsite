@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic SC">
+      <link rel="stylesheet" href="about.css">
+      <link rel="icon" type="image/x-icon" href="/images/break-icon.svg">
+  <title>Break - About</title>
+</head>
+
+<body>
+  <div class="Header">
+    
+    <div class="picture">
+    <img src="images/break-logo.svg" alt="logo" width=100%>
+    </div>
+    
+    <div class="topnav" id="myTopnav" style="overflow:auto">
+      <a href="index.html">Home</a>
+      <a href="mentalhealthzone.html">Mental Health Zone</a>
+      <a href="contact.html">Contact</a>
+      <div class="dropdown">
+        <button class="dropbtn" >Games 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="games2min.html">Games under 2 minutes</a>
+          <a href="games5min.html">Games under 5 minutes</a>
+          <a href="games10min.html">Games under 10 minutes</a>
+        </div>
+      </div> 
+      <a href="about.html" class="active">About</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div class="main">
+        <h1 class="Header">About</h1>
+        <h2>This website was created to incur productivity and
+      motivation in the workplace.</h2>
+    </div>
+
+    
+
+
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="images/break-logo.svg" alt="" class="logo">
+
+          <div class="footer-nav">
+            
+            <ul>
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+              <li>
+                <a href="mentalhealthzone.html">Mental Health Zone</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+              <li>
+                <a href="games2min.html">Games</a>
+              </li>
+              <li>
+                <a href="about.html">About</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <p class="rights-text">
+          <div class="members">
+            &copy;<span id="year">2023</span>
+            <span>B00396778, B00416719, B00415707, B00401696</span>
+          </div>
+          </p>
+        </div>
+
+        <div class="right-col">
+          <h1>Sign up to our newsletter to receive updates</h1>
+          <div class="border"></div>
+          <p>This website was created to incur productivity and<br> motivation in the workplace.</p>
+
+          
+          <!-- https://us10.list-manage.com/contact-form?u=b137b2853faf0c822e62383fc&form_id=9d5eaa5a7c7a0c236c7a2a7096cda2b8 -->
+          
+          
+              
+          </form>
+
+          <form
+          action="https://app.us10.list-manage.com/subscribe/post?u=b137b2853faf0c822e62383fc&amp;id=d0d580e2cd&amp;f_id=009ecee5f0" 
+          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_self">
+            <div id="container-followbyemail">
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address
+                </label><br>
+                <input type="email" value="" name="EMAIL" class="follow-by-email-address" id="mce-EMAIL" required>
+                <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
+              </div>
+              <div class="sub-sub-button">
+                <input class="follow-by-email-submit" type="submit" value="Submit">
+              </div>
+              
+          </form>
+
+
+  </div>
+  </div>
+  </footer>
+        
+            
+          
+        
+        <button class="go-top-btn">
+            <img src="images/arrowup.svg" alt="scroll arrow">
+          </button>  
+        
+      
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            const goTopBtn = document.querySelector('.go-top-btn');
+      
+      window.addEventListener('scroll', checkHeight)
+      
+      function checkHeight(){
+        if(window.scrollY > 200) {
+          goTopBtn.style.display = "flex"
+        } else {
+          goTopBtn.style.display = "none"
+        }
+      }
+      
+      goTopBtn.addEventListener('click', () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        })
+      })
+            </script>
+        </body>
+        
+        </html>
